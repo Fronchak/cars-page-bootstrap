@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #00285F;
+    --secondary-color: #F78B00;
+    --navbar-height: 60px;
+    
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.primary-bg-color {
+    background-color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.secondary-bg-color {
+    background-color: var(--secondary-color);
+}
+
+.white-color {
+    color: #fff;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+#page-container {
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+
+#navbar a,
+#navbar a.active {
+    color: var(--primary-color);
+}
+
+#navbar a.active {
+    font-weight: bold;
+}
+
+#navbar button {
+    color: var(--primary-color)
+}
+
+#navbar {
+    min-height: var(--navbar-height);
+}
+
+/* CONTENT CONTAINER */
+
+#content-container {
+    height: calc(100vh - var(--navbar-height));
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#main-card-container {
+    background-color: var(--primary-color);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    border-radius: 10px;
+}
+
+#main-card-container img {
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+#main-card-container h1 {
+    font-size: 1.4em;
+    margin-bottom: 0.8em;
+}
+
+#main-card-container p {
+    font-size: 1.2em;
+}
+
+/* BOTTOM CARD */
+
+#bottom-card-container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#bottom-card-container button {
+    color: #fff;
+}
+
+#bottom-card-container p {
+    color: #585858;
+    margin-top: 0.6em;
+}
